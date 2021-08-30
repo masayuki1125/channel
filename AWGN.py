@@ -100,7 +100,7 @@ class _AWGN():
         return Lc
 
 if __name__=="__main__":
-  ch=AWGN()
+  ch=_AWGN()
   time_start = time.time()  
   information=np.zeros(100)
   res=ch.generate_LLR(information,100)
